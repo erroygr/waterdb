@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="registratiocPackege.RegistrationMenuController">
+   <children>
+      <Button layoutX="300.0" layoutY="550.0" mnemonicParsing="false" onAction="#getRegstr" prefHeight="36.0" prefWidth="122.0" text="Регистрация">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font></Button>
+      <ComboBox fx:id="comboBoxHome" layoutX="35.0" layoutY="81.0" prefHeight="25.0" prefWidth="466.0" />
+      <Label layoutX="35.0" layoutY="55.0" text="Дом проживания:">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font></Label>
+      <Label layoutX="35.0" layoutY="119.0" text="ФИО владельца помещения:">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font></Label>
+      <TextField fx:id="fioUser" layoutX="33.0" layoutY="145.0">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="areaChart" layoutX="33.0" layoutY="208.0">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font></TextField>
+      <Label layoutX="33.0" layoutY="183.0" text="Площадь жилья:">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font></Label>
+      <Label layoutX="33.0" layoutY="250.0" text="Количество прописанных:">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font></Label>
+      <TextField fx:id="valRegistr" layoutX="31.0" layoutY="277.0">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="loginUser" layoutX="278.0" layoutY="145.0">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="passwordUser" layoutX="278.0" layoutY="208.0">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font></TextField>
+      <Label layoutX="278.0" layoutY="119.0" text="Логин:">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font></Label>
+      <Label layoutX="278.0" layoutY="183.0" text="Пароль:">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font></Label>
+      <Button layoutX="146.0" layoutY="550.0" mnemonicParsing="false" onAction="#getExit" prefHeight="36.0" prefWidth="122.0" text="Выход">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Button>
+      <Line endX="497.0" layoutX="103.0" layoutY="339.0" startX="-109.0" />
+      <Label layoutX="172.0" layoutY="14.0" text="Регистрация пользователя">
+         <font>
+            <Font name="Times New Roman" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="35.0" layoutY="354.0" text="Добавьте данные с приборов водоснабжения, &#10;за последний расчетных период:">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="35.0" layoutY="403.0" text="Кол-во кубов холодной воды:">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="305.0" layoutY="403.0" text="Кол-во кубов горячей воды:">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="37.0" layoutY="468.0" text="Дата:">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="valColdWater" layoutX="35.0" layoutY="429.0">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="dateWater" layoutX="37.0" layoutY="488.0">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="valHotWater" layoutX="309.0" layoutY="429.0">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>

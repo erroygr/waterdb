@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+            prefHeight="250.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AuthenticationController">
+   <children>
+      <Button layoutX="123.0" layoutY="147.0" mnemonicParsing="false" onAction="#logInYourPersonalAccount" prefHeight="32.0" prefWidth="238.0" text="Войти">
+         <font>
+            <Font name="Times New Roman Bold" size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="56.0" layoutY="33.0" text="Логин:">
+         <font>
+            <Font name="Times New Roman Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="loginTextField" layoutX="121.0" layoutY="27.0">
+         <font>
+            <Font name="Times New Roman Bold" size="18.0" />
+         </font>
+      </TextField>
+      <Label layoutX="46.0" layoutY="71.0" text="Пароль:">
+         <font>
+            <Font name="Times New Roman Bold" size="18.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="checkEmpl" layoutX="121.0" layoutY="108.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="238.0" text="Для сотрудников">
+         <font>
+            <Font name="Times New Roman Bold" size="14.0" />
+         </font>
+      </CheckBox>
+      <Button layoutX="175.0" layoutY="192.0" mnemonicParsing="false" onAction="#goToRegistration" prefHeight="32.0" prefWidth="134.0" text="Регистрация">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Button>
+      <PasswordField fx:id="passwordText" layoutX="121.0" layoutY="69.0" prefHeight="25.0" prefWidth="238.0">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </PasswordField>
+   </children>
+</AnchorPane>

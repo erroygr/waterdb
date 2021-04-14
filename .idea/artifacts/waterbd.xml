@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="waterbd">
+    <output-path>$PROJECT_DIR$/out/artifacts/waterbd</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="sample.Main" />
+        <option name="description" value="" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="nativeBundle" value="all" />
+        <option name="title" value="" />
+        <option name="vendor" value="" />
+        <option name="version" value="" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="waterbd.jar">
+        <element id="module-output" name="waterbd" />
+        <element id="library" level="project" name="mssql-jdbc-8.2.0.jre8" />
+      </element>
+    </root>
+  </artifact>
+</component>

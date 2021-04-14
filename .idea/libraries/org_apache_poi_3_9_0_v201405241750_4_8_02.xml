@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="org.apache.poi_3.9.0.v201405241750-4.8.02">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/org.apache.poi_3.9.0.v201405241750-4.8.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/lib/org.apache.poi_3.9.0.v201405241750-4.8.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/org.apache.poi_3.9.0.v201405241750-4.8.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
